@@ -5,16 +5,9 @@ const express         =     require('express')
   , cookieParser      =     require('cookie-parser')
   , bodyParser        =     require('body-parser')
   , config            =     require('./configuration/config')
-  , mysql             =     require('mysql')
   , app               =     express();
 
 //Define MySQL parameter in Config.js file.
-const pool = mysql.createPool({
-  host     : config.host,
-  user     : config.username,
-  password : config.password,
-  database : config.database
-});
 
 // Passport session setup.
 passport.serializeUser(function(user, done) {
