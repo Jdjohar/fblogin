@@ -6,5 +6,6 @@ module.exports = {
 
   facebook_api_key: "610954016431255",
   facebook_api_secret: "d9dda63d6d79bd0171f8b9b73c59329d",
-  callback_url: "https://fbloginjdwebdemo.herokuapp.com/auth/facebook/callback",
+  callback_url: "http://localhost:3000/auth/facebook/callback",
+
 };
